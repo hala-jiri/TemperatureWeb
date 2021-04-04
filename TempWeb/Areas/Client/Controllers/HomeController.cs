@@ -9,6 +9,7 @@ using TempWeb.Models;
 
 namespace TempWeb.Controllers
 {
+    [Area("Client")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
